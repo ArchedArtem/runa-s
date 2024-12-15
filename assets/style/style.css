@@ -464,3 +464,105 @@ footer .container p{
     font-family: "MontserratBold", sans-serif;
     margin-bottom: 0;
 }
+
+/* ADAPTIVE */
+
+@media (max-width: 1500px) {
+    .container {
+        width: 1440px;
+    }
+
+    .section-navigation .container .text-right p{
+        font-size: 16px;
+    }
+
+    .section-navigation .container .text-middle p{
+        font-size: 17px
+    }
+
+    .section-navigation .container img{
+        width: 200px;
+    }
+
+    .section-info .container .text h2{
+        font-size: 40px;
+    }
+
+    .section-info .container .text p{
+        font-size: 16px;
+    }
+
+    .section-about .container h2{
+        font-size: 40px;
+    }
+
+    .section-about .container .text p{
+        font-size: 18px;
+    }
+
+    .section-events .container h2{
+        font-size: 40px;
+    }
+
+    .section-events .container .cards .card .text-right h4{
+        font-size: 18px;
+    }
+
+    .section-events .container .cards .card img{
+        width: 175px;
+        height: auto;
+    }
+
+    .section-events .container .cards .card{
+        width: 45%;
+    }
+
+    .section-events .container .cards .card .text-right .p-text{
+        font-size: 14px;
+    }
+
+    .section-products .container h2{
+        font-size: 40px;
+    }
+
+    .section-products .container .text-container{
+        width: 600px;
+        height: 70px;
+    }
+
+    .section-products .container .text{
+        font-size: 20px;
+    }
+
+    .section-products .container .slide .cards .card{
+        width: 275px;
+        height: 375px;
+    }
+
+    .section-products .container .slide .cards .card img{
+        width: 95%;
+    }
+
+    .section-products .container .slide .cards .card h4{
+        font-size: 20px;
+    }
+
+    .section-products .container .slide .cards .card button{
+        width: 225px;
+        height: 50px;
+    }
+
+    footer .container p{
+        font-size: 14px;
+    }
+
+    .section-form .container h2{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}
