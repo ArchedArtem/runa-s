@@ -120,3 +120,33 @@ p {
     transition: .6s;
 }
 
+/* SECTION ABOUT */
+
+.section-about{
+    margin-top: 5%;
+    padding: 4%;
+    background-color: #d9dae7;
+}
+
+.section-about .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-about .container h2{
+    font-family: "PlayFairBold", sans-serif;
+    font-size: 48px;
+}
+
+.section-about .container .text{
+    width: 70%;
+    margin-top: 2%;
+}
+
+.section-about .container .text p{
+    font-size: 20px;
+    font-family: "MontserratMedium", sans-serif;
+    text-align: center;
+}
