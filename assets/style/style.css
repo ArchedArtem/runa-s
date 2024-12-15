@@ -330,6 +330,12 @@ p {
     color: white;
     font-size: 21px;
     border-radius: 40px;
+    transition: .5s;
+}
+
+.section-products .container .slide .cards .card button:hover{
+    background-color: #363c6d;
+    transition: .7s;
 }
 
 .carousel-control-prev-icon,
@@ -347,4 +353,94 @@ p {
 
 .carousel-control-prev-icon{
     margin-right: 50%;
+}
+
+/* SECTION FORM */
+
+.section-form{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.section-form .container h2{
+    font-family: "PlayFairBold";
+    font-size: 48px;
+    text-align: center;
+}
+
+.section-form .container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-form .container form .vvod{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.section-form .container form .vvod input, .section-form .container form .vvod select{
+    width: 550px;
+    height: 50px;
+    border: #010B5E 3px solid;
+    border-radius: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.section-form .container form .vvod .sms{
+    height: 250px;
+}
+
+.section-form .container form .vvod-politica .politica{
+    font-size: 10px;
+    width: 93%;
+}
+
+.section-form .container form .vvod-politica{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.section-form .container form .vvod-politica input{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #010B5E;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px #3498db, 0 0 20px #3498db, 0 0 30px #3498db;
+    }
+    50% {
+        box-shadow: 0 0 20px #3498db, 0 0 30px #3498db, 0 0 40px #3498db;
+    }
+    100% {
+        box-shadow: 0 0 10px #3498db, 0 0 20px #3498db, 0 0 30px #3498db;
+    }
+}
+
+.section-form .container form button{
+    width: 468px;
+    height: 60px;
+    border-radius: 30px;
+    color: white;
+    font-size: 21px;
+    font-family: "MontserratBold", sans-serif;
+    background-color: #010B5E;
+    margin-top: 3%;
+    transition: .5s;
+    animation: glow 2s infinite;
+}
+
+.section-form .container form button:hover{
+    width: 500px;
+    height: 80px;
+    transition: .7s;
 }
