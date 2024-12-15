@@ -8,6 +8,7 @@
     margin: 0;
     box-sizing: border-box;
     outline: none;
+    color: #010B5E;
 }
 
 a {
@@ -50,7 +51,7 @@ p {
 
 .section-navigation .container .text-middle a:hover{
     border-bottom: 4px solid #010B5E;
-    transition: .7s;
+    transition: .6s;
 }
 
 .section-navigation .container .text-middle p{
@@ -71,3 +72,51 @@ p {
     font-size: 18px;
     font-family: "MontserratMedium", sans-serif;
 }
+
+/* SECTION INFO */
+
+.section-info{
+    margin-top: 5%;
+}
+
+.section-info .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-info .container .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-info .container .text h2{
+    font-family: "PlayFairBold", sans-serif;
+    font-size: 48px;
+}
+
+.section-info .container .text p{
+    font-family: "MontserratMedium", sans-serif;
+    font-size: 18px;
+    width: 90%;
+    margin-top: 2%;
+}
+
+.section-info .container .text button{
+    width: 300px;
+    height: 60px;
+    background-color: #010B5E;
+    color: white;
+    font-size: 24px;
+    border-radius: 40px;
+    font-family: "MontserratBold", sans-serif;
+    transition: .3s;
+    margin-top: 4%;
+}
+
+.section-info .container .text button:hover{
+    background-color: #363c6d;
+    transition: .6s;
+}
+
