@@ -21,3 +21,9 @@
     src: url(../fonts/PlayfairDisplay.ttf);
     font-weight: 700;
 }
+
+@font-face{
+    font-family: 'MontserratItalic';
+    src: url(../fonts/Montserrat-Italic.ttf);
+    font-weight: 400;
+}

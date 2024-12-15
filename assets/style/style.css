@@ -150,3 +150,57 @@ p {
     font-family: "MontserratMedium", sans-serif;
     text-align: center;
 }
+
+/* SECTION EVENTS */
+
+.section-events{
+    margin-top: 5%;
+}
+
+.section-events .container h2{
+    font-size: 48px;
+    font-family: "PlayFairBold", sans-serif;
+    text-align: center;
+}
+
+.section-events .container .cards .card{
+    width: 550px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border: none;
+    margin-top: 3%;
+}
+
+.section-events .container .cards .card img{
+    width: 212px;
+    height: 163px;
+}
+
+.section-events .container .cards .card .text-right{
+    margin-left: 3%;
+}
+
+.section-events .container .cards .card .text-right h4{
+    font-size: 20px;
+    font-family: "MontserratBold", sans-serif;
+}
+
+.section-events .container .cards .card .text-right .p-text{
+    font-size: 16px;
+    font-family: "MontserratMedium", sans-serif;
+}
+
+.section-events .container .cards .card .text-right .p-italic{
+    font-size: 14px;
+    font-family: "MontserratItalic", sans-serif;
+}
+
+.section-events .container .cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
