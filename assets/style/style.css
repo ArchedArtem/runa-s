@@ -444,3 +444,23 @@ p {
     height: 80px;
     transition: .7s;
 }
+
+/* FOOTER */
+
+footer{
+    padding: 2%;
+    background-color: #d9dae7;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container p{
+    text-align: center;
+    font-size: 16px;
+    font-family: "MontserratBold", sans-serif;
+    margin-bottom: 0;
+}
