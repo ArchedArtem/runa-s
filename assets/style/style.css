@@ -565,4 +565,118 @@ footer .container p{
     .container {
         width: 1140px;
     }
+
+    .section-navigation .container .text-middle p {
+        font-size: 15px;
+    }
+
+    .section-navigation .container img {
+        width: 150px;
+    }
+
+    .section-navigation .container .text-right p {
+        font-size: 13px;
+    }
+
+    .section-info .container img{
+        width: 400px;
+    }
+
+    .section-info .container .text p {
+        font-size: 14px;
+    }
+
+    .section-info .container .text h2 {
+        font-size: 36px;
+    }
+
+    .section-info .container .text button{
+        width: 250px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .section-about .container h2 {
+        font-size: 36px;
+    }
+
+    .section-about .container .text p {
+        font-size: 15px;
+    }
+
+    .section-events .container h2 {
+        font-size: 36px;
+    }
+
+    .section-events .container .cards .card img {
+        width: 150px;
+    }
+
+    .section-events .container .cards .card .text-right h4 {
+        font-size: 14px;
+    }
+
+    .section-events .container .cards .card .text-right .p-text {
+        font-size: 12px;
+    }
+
+    .section-events .container .cards .card .text-right .p-italic {
+        font-size: 12px;
+    }
+
+    .section-events .container .cards .card{
+        height: 200px;
+    }
+
+    .section-products .container h2 {
+        font-size: 36px;
+    }
+
+    .section-products .container .text-container {
+        width: 500px;
+        height: 60px;
+    }
+
+    .section-products .container .text {
+        font-size: 18px;
+    }
+
+    .section-products .container .slide .cards .card h4 {
+        font-size: 16px;
+    }
+
+    .section-products .container .slide .cards .card button {
+        width: 200px;
+        height: 45px;
+        font-size: 18px;
+    }
+
+    .section-products .container .slide .cards .card {
+        width: 225px;
+        height: 300px;
+    }
+
+    .section-form .container h2 {
+        font-size: 36px;
+    }
+
+    .section-form .container form .vvod input, .section-form .container form .vvod select{
+        height: 45px;
+    }
+
+    footer .container p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 98%;
+    }
 }
