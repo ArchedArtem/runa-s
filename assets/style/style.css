@@ -24,6 +24,10 @@ p {
     margin: 0 auto;
 }
 
+.section-navigation nav{
+    display: none;
+}
+
 /* SECTION NAVIGATION */
 
 .section-navigation{
@@ -672,6 +676,127 @@ footer .container p{
 @media (max-width: 992px) {
     .container {
         width: 960px;
+    }
+
+    .section-navigation .container{
+        display: none;
+    }
+
+    .section-navigation nav{
+        display: block;
+        padding: 3%;
+    }
+
+    .nav-link{
+        color: #010B5E !important;
+    }
+
+    .section-navigation nav h5{
+        font-family: "MontserratBold", sans-serif;
+        text-decoration: underline;
+    }
+
+    .navbar-brand img{
+        width: 150px;
+    }
+
+    .section-info {
+        margin-top: 20%;
+    }
+
+    .section-info .container img{
+        display: none;
+    }
+
+    .section-info .container .text h2{
+        text-align: center;
+    }
+
+    .section-info .container .text p{
+        text-align: center;
+        width: 100%;
+    }
+
+    .section-info .container .text{
+        align-items: center;
+    }
+
+    .section-about .container .text p {
+        font-size: 14px;
+    }
+
+    .section-events .container .cards{
+        flex-direction: column;
+    }
+    
+    .section-events .container .cards .card {
+        width: 80%;
+        margin-top: 2%;
+        height: 150px;
+    }
+
+    .section-products .container .text-container {
+        width: 450px;
+        height: 55px;
+    }
+
+    .section-products .container .text {
+        font-size: 16px;
+    }
+
+    .section-products .container .slide .cards .card:nth-child(3){
+        display: none;
+    }
+
+    .section-products .container .slide .cards .card{
+        width: 250px;
+    }
+
+    .section-form .container form .vvod input, .section-form .container form .vvod select {
+        height: 40px;
+        width: 450px;
+        font-size: 14px;
+    }
+
+    .section-form .container form .vvod label{
+        font-size: 14px;
+    }
+
+    .section-form .container form .vvod .sms {
+        height: 200px;
+    }
+
+    .section-form .container form .vvod-politica input{
+        width: 20px;
+        height: 20px;
+    }
+
+    .section-form .container form .vvod-politica .politica{
+        font-size: 8px;
+    }
+
+    .section-form .container form .vvod-politica{
+        width: 450px;
+    }
+
+    .section-form .container form button {
+        width: 400px;
+        height: 55px;
+        font-size: 18px;
+    }
+
+    .section-form .container form button:hover {
+        width: 400px;
+        height: 55px;
+        font-size: 18px;
+    }
+
+    footer .container p {
+        font-size: 10px;
+    }
+
+    footer .container img{
+        width: 10%;
     }
 }
 
