@@ -701,7 +701,7 @@ footer .container p{
     }
 
     .section-info {
-        margin-top: 20%;
+        margin-top: 15%;
     }
 
     .section-info .container img{
@@ -798,10 +798,86 @@ footer .container p{
     footer .container img{
         width: 10%;
     }
+
+    .section-about .container .text {
+        width: 80%;
+    }
 }
 
 @media (max-width: 768px) {
     .container {
         width: 98%;
     }
+
+    .section-info .container .text h2 {
+        font-size: 30px;
+    }
+
+    .section-info .container .text p {
+        font-size: 12px;
+    }
+
+    .section-about .container h2 {
+        font-size: 30px;
+    }
+
+    .section-about .container .text p {
+        font-size: 12px;
+    }
+
+    .section-about .container .text {
+        width: 90%;
+    }
+
+    .section-events .container h2 {
+        font-size: 30px;
+        margin-bottom: 5%;
+    }
+
+    .section-events .container .cards .card{
+        width: 90%;
+    }
+
+    .section-products .container h2 {
+        font-size: 30px;
+    }
+
+    .section-products .container .text-container {
+        width: 400px;
+        height: 50px;
+    }
+
+    .section-products .container .text {
+        font-size: 14px;
+    }
+
+    .section-products .container .slide .cards .card {
+        width: 200px;
+        height: 250px;
+    }
+
+    .section-products .container .slide .cards .card button {
+        width: 150px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .section-form .container h2 {
+        font-size: 30px;
+    }
+
+    .section-form .container form .vvod label {
+        font-size: 13px;
+    }
+
+    .section-form .container form .vvod .sms {
+        height: 150px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 98%;
+    }
+    
 }
