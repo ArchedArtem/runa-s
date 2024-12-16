@@ -1081,10 +1081,104 @@ footer .container p{
     footer .container p {
         font-size: 7px;
     }
+
+    .navbar-brand img {
+        width: 100px;
+    }
+
+    .section-events .container h2{
+        margin-bottom: 7%;
+    }
 }
 
 @media (max-width: 370px) {
     .container {
         width: 98%;
+    }
+
+    .section-navigation nav h5{
+        font-size: 16px;
+    }
+
+    .nav-link{
+        font-size: 12px !important;
+    }
+
+    .section-info .container .text h2 {
+        font-size: 20px;
+    }
+
+    .section-about .container h2 {
+        font-size: 20px;
+    }
+
+    .section-events .container h2{
+        font-size: 20px;
+    }
+
+    .section-events .container .cards .card .text-right .p-text {
+        font-size: 8px;
+    }
+
+    .section-events .container .cards .card .text-right h4 {
+        font-size: 10px;
+    }
+
+    .section-events .container .cards .card .text-right .p-italic {
+        font-size: 8px;
+    }
+
+    .section-products .container h2 {
+        font-size: 20px;
+    }
+
+    .section-products .container .text-container {
+        width: 250px;
+        height: 40px;
+    }
+
+    .section-products .container .text {
+        font-size: 10px;
+    }
+
+    .section-products .container .slide .cards .card {
+        width: 175px;
+        height: 225px;
+    }
+
+    .section-products .container .slide .cards .card button {
+        width: 125px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .section-form .container h2 {
+        font-size: 20px;
+    }
+
+    .section-form .container form .vvod input, .section-form .container form .vvod select {
+        width: 250px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .section-form .container form .vvod label {
+        font-size: 10px;
+    }
+
+    .section-form .container form .vvod .sms {
+        height: 100px;
+    }
+
+    .section-form .container form .vvod-politica {
+        width: 250px;
+    }
+
+    .section-form .container form .vvod-politica .politica {
+        font-size: 6px;
+    }
+
+    footer .container p {
+        font-size: 6px;
     }
 }
