@@ -987,4 +987,104 @@ footer .container p{
     .container {
         width: 98%;
     }
+
+    .section-info .container .text h2 {
+        font-size: 24px;
+    }
+
+    .section-info .container .text p {
+        font-size: 10px;
+    }
+
+    .section-info .container .text button {
+        width: 200px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .section-about .container h2 {
+        font-size: 24px;
+    }
+
+    .section-about .container .text p {
+        font-size: 10px;
+    }
+
+    .section-events .container h2 {
+        font-size: 24px;
+        margin-bottom: 10%;
+    }
+
+    .section-events .container .cards .card img {
+        width: 100px;
+    }
+
+    .section-events .container .cards .card {
+        width: 95%;
+    }
+
+    .section-events .container .cards .card .text-right .p-text {
+        font-size: 10px;
+    }
+
+    .section-events .container .cards .card .text-right .p-italic {
+        font-size: 10px;
+    }
+
+    .section-events .container .cards .card .text-right h4 {
+        font-size: 12px;
+    }
+
+    .section-products .container h2 {
+        font-size: 24px;
+    }
+
+    .section-products .container .slide .cards .card:nth-child(2){
+        display: none;
+    }
+
+    .section-products .container .slide .cards{
+        justify-content: center;
+    }
+
+    .section-form .container form .vvod input, .section-form .container form .vvod select {
+        width: 300px;
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .section-form .container form .vvod label {
+        font-size: 12px;
+    }
+
+    .section-form .container form .vvod-politica {
+        width: 300px;
+    }
+
+    .section-form .container form .vvod-politica .politica {
+        font-size: 7px;
+    }
+
+    .section-form .container form button {
+        width: 200px;
+        height: 40px;
+        font-size: 12px;
+        margin-top: 8%;
+    }
+
+    .section-form .container form button:hover {
+        width: 200px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    footer .container p {
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 370px) {
+    .container {
+        width: 98%;
+    }
 }
