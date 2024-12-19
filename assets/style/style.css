@@ -19,6 +19,10 @@ p {
     color: #010B5E;
 }
 
+.section {
+    scroll-margin-top: 1em;
+}
+
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -26,6 +30,19 @@ p {
 
 .section-navigation nav{
     display: none;
+}
+
+/* Java Script */
+
+.section {
+    opacity: 0;
+    transform: translateY(150px);
+    transition: opacity 0.8s ease-out, transform 0.7s ease-out;
+}
+
+.section.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* SECTION NAVIGATION */
